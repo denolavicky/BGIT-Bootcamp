@@ -1,0 +1,88 @@
+1. What does HTML stand for and what its oriary purpose in web development
+HTML stands for "Hypertext Markup Language." It is the standard markup language used for creating and 
+structuring content on the World Wide Web (WWW). HTML is the foundation of web development, and its primary 
+purpose is to define the structure and elements of a web page.
+
+2. Explain the difference between HTML elements and HTML attributes. Provide examples of each
+HTML elements are the building blocks of web pages. They define the structure and content of different parts of a 
+web page. Each HTML element is enclosed within opening and closing tags, with the content placed between these tags. 
+The opening tag contains the element name, and the closing tag has the same name but with a forward slash before 
+the element name. Some elements don't require a closing tag and are self-closing.
+Examples:
+<p>This is a paragraph element.</p>
+<h1>This is a heading element</h1>
+<ul>
+  <li>List item 1</li>
+  <li>List item 2</li>
+</ul>
+
+HTML attributes provide additional information about HTML elements. They are specified within the opening tag of an 
+element and are used to modify the behavior, appearance, or other aspects of the element. 
+Examples:
+<a> element has an "href" attribute specifying the URL and a "target" attribute with the value "_blank" to open
+the link in a new tab.
+<img> element has "src," "alt," "width," and "height" attributes to define the image source, alternative text, 
+and dimensions.
+
+3. What is the purpose of the "DOCTYPE" declaration in an HTML document? What happens if you omit it?
+The DOCTYPE declaration in an HTML document serves a crucial role in specifying the document type and version of 
+HTML being used. It tells web browsers how to interpret and render the content of the HTML document. The DOCTYPE 
+declaration is typically placed at the very beginning of an HTML file. 
+WHEN IT IS OMITTED
+I. Without a DOCTYPE declaration, some browsers may enter "quirks mode" or "almost standards mode." In this mode, 
+the browser tries to mimic the behavior of older, non-standard versions of HTML, which can lead to inconsistent 
+rendering between different browsers. Elements may be displayed differently, and certain features may not work as 
+expected.
+II. Omitting the DOCTYPE declaration can lead to layout issues, where elements are positioned and sized differently
+than intended, causing a lack of visual consistency across browsers.
+III. Web pages without a DOCTYPE declaration are more likely to encounter compatibility problems with modern browsers. 
+Newer HTML features and standards may not be properly supported, leading to a suboptimal user experience.
+
+4. Describe the difference between inline elements and block-level elements in HTML. Give examples of each.
+Block-level elements are used to create the main structural elements of a webpage, and they typically start 
+on a new line and occupy the full width of their parent container. These elements create distinct "blocks" or 
+sections of content.
+Examples: 
+<p>, <div>, <h1>
+Inline elements, on the other hand, do not create new blocks but rather flow within the content of block-level 
+elements, typically staying on the same line as surrounding text or elements. Inline elements are used to style or 
+emphasize specific parts of the content. They cannot contain block-level elements but can contain other inline 
+elements
+Examples
+<img>, <em>, <strong>, <img>
+
+
+5. Explain the significance of the following HTML tags and their usage:
+<head> : The <head> tag is not meant for visible content but contains metadata and other essential information 
+about the HTML document. It's placed before the <body> tag and is used to provide instructions to the browser, 
+search engines, and other tools.
+<div> : The <div> tag is a versatile and generic container used to group and structure content. It's often 
+used in combination with CSS for styling and layout purposes. <div> does not inherently change the appearance of 
+the content; its primary purpose is to create logical divisions within the page.
+<a> : The <a> (anchor) tag is used to create hyperlinks, allowing users to navigate from one webpage to another or 
+to different sections within the same page. It requires the href attribute, which specifies the destination URL.
+<img> : The <img> tag is used to embed images in a webpage. It requires the src attribute to specify the image 
+file's source (URL or local path) and often uses the alt attribute for an alternative text description, which is 
+crucial for accessibility.
+<ul> : Unordered list. Represents a bulleted list where the order of items doesn't matter.
+<ol> : Ordered list. Represents a numbered list where the order of items matters.
+<li> :  List item. Represents individual items within a list.
+
+6. What are semantic HTML elements? Provide examples of semantic elements and explain why they are important for web accessibility and SEO.
+Semantic HTML elements are HTML tags that carry meaning and convey the structure of the content they enclose. 
+These elements provide valuable information about the type and purpose of the content, making it easier for both 
+browsers and other systems (such as search engines and assistive technologies) to understand the document's structure 
+and content
+Examples:
+<header> and <footer>:
+<header>: Represents the introductory content of a section or the top of a page, often containing the site's logo, navigation, or heading.
+<footer>: Represents the closing content of a section or the bottom of a page, often containing copyright information or related links.
+Importance: Semantic headers and footers help screen readers and search engines identify important sections of the page, improving accessibility and SEO.
+
+
+7. What is the purpose of the HTML form element (<form>) and its associated form controls?
+Provide examples of common form controls.
+The <form> element in HTML is used to create interactive forms on web pages. Forms allow users to input and 
+submit data, such as text, selections, or files, to the server for processing. The <form> element acts as a 
+container for various form controls (also known as form elements or input fields), which define the types of 
+data the user can provide and how that data is collected
