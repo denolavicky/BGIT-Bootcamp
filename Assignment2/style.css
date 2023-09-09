@@ -17,19 +17,27 @@ header{
 .para{
     text-align: center;
     margin: 20px;
+    padding: 30px;
 }
 
-.portfolio img {
+.parainfo{
+    display: flex;
+    
+
+}
+
+.para img {
     max-width: 100%;
     height: auto;
     border-radius: 50%;
     transform: scale(1.5);
 }
 
-.portfolio p {
+.para p {
     font-size: 18px;
     line-height: 1.5;
     margin-top: 20px;
     font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
     
 }
