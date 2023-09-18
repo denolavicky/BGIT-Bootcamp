@@ -1,0 +1,32 @@
+1. HTML Stands for hypertext markup language. It's a language that is used to for building the structure of web pages
+It plays a major role in web development as it builds the structure through the html document for the web pages
+
+2. The basic structure of an HTML document. The HTML document consists of a   < !DOCTYPE html> which helps in identifying
+the root of the HTML document, <head> where all the metadata of the HTML document is computed <body> where the content
+of the web page goes
+Three essential HTML tags: 
+<Head> This is where the metadata of the HTML document goes, we can aslo style in the head tag
+<Body> This is where the content of the web page goes.
+<Header> This is a semantic element tag where the content is structured or goes at the header section of the web page
+
+3. CSS Stands for Cascading Style Sheet.The cascading means is could be inerited. This helps in styling the web page. It is used in web design to style and modify
+layouts on the web page. it promotes user interaction and experience
+
+4. CSS Selectors and types
+CSS Selectors is used to style the layout of a particular html element. 
+Types:
+Class Selector - syles the element based on the class it identifies with
+ID Selector- used to style HTML elemnts based on their ID
+The Purpose of the CSS color property is to give color to the text in the HTML Document.
+Example:
+I could give a color red to the text of an input field in a form to show that the user has entered a text that
+is not consistent with the predefined format of the form e.g color: white;
+
+5. CSS Box Model and it component.
+CSS Box Model is a model that helps in spacing and positioning the layouts of elements in the HTML document
+It components include : 
+Content: Where the information defined by the html tags goes
+padding: The space around the content or the space outside of the content
+border: The line that is outside or surrounding the padding and content 
+Margin: the Space outside or surrounding the Border, padding and content
+
