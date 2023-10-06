@@ -1,0 +1,1 @@
+My Portfolio Website is a professional showcase of me and my projects. It features a user-friendly navigation bar, an engaging hero section with the developer's name and a call-to-action, and a gallery of programming projects with detailed descriptions.
