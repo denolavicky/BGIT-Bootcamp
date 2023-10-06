@@ -1,0 +1,45 @@
+.navbar-custom {
+  background-color: #222;
+  color: #fff;
+}
+
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-nav .nav-link {
+  color: #fff !important;
+}
+
+.navbar-custom .navbar-toggler-icon {
+  background-color: #fff;
+}
+
+.hero {
+  background-image: url("hero-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  text-align: center;
+  padding: 150px 0;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  font-family: "Arial", sans-serif;
+}
+
+.hero p {
+  font-size: 1.25rem;
+  font-family: "Arial", sans-serif;
+}
+
+.hero .btn {
+  font-size: 1.25rem;
+  padding: 10px 30px;
+  margin-top: 20px;
+  background-color: #3498db;
+  border-color: #3498db;
+}
+
+.hero .btn:hover {
+  background-color: #2980b9;
+  border-color: #2980b9;
+}/*# sourceMappingURL=custom.css.map */
