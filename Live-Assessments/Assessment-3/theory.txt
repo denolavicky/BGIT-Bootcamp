@@ -1,0 +1,69 @@
+1. Bootstrap is a popular front-end framework for building responsive and mobile-first websites and web
+applications. It uses a grid system for layout, as well as pre-designed components for buttons, forms and more.
+
+Features
+Responsive design
+Grid system
+It is customizable
+it has pre design componenets
+
+Advantages
+It improves consistency
+It provides faster development rate
+It saves time and effort
+
+2. Bootstrap's grid system is a responsive layout system that makes it easy to create websites that look good on all devices.
+b. Define the container
+create rows and coloumn
+Create responsive grid classes
+
+
+3. Bootstrap components are pre-built UI elements that follow the Bootstrap design system and adhere to their responsive grid system
+componenets
+i. Alerts
+ii. Buttons
+iii. Cards
+
+4. Variables : they serve as containers for storing data that can be changed or manipulated throughout a program.
+Functions : Functions in JavaScript are blocks of reusable code designed to perform a specific task or return a value.
+Loops : Loops are used in JavaScript to repeatedly execute a block of code as long as a specified condition is true. 
+
+
+5. Variables declared with var are accessible within the function or block where they are declared, as well as in nested blocks and even outside the function if declared globally.
+variables declared with let are only accessible within the block where they are declared, including nested blocks.
+Variables declared with const cannot be reassigned, meaning their value remains unchanged once assigned. This ensures that data remains consistent and prevents unintentional modifications.
+
+
+6. Event handling helps in creating dynamic and interactive web applications. It enables developers to capture user input, respond to real-time changes, and provide feedback to the user. 
+Example
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Event Listener</title>
+</head>
+<body>
+  <button id="myButton">Click Me</button>
+
+  <script>
+    const button = document.getElementById('myButton');
+
+    button.addEventListener('click', () => {
+      alert('You clicked the button!');
+    });
+  </script>
+</body>
+</html>
+
+
+7.The DOM is a tree-like representation of the HTML document, allowing developers to dynamically modify the structure and content of a web page
+document.createElement(): This method creates a new HTML element and returns a reference to it.
+getElementById(): This method retrieves an element by its unique ID attribute
+element.style: This property allows you to modify the CSS styles of an element
+
+8. Asynchronous JavaScript and XML (AJAX) is a group of interrelated 
+technologies that facilitate asynchronous communication between a web browser and a server. It allows web applications to request and receive data from the server without reloading the entire page, resulting in a more responsive and dynamic user experience.
+
+9. A callback is a function that is passed as an argument to another function and is intended to be executed after the completion of a particular operation or task. Callbacks are commonly used to handle asynchronous operations, allowing for non-blocking code execution
+
+
+10. The significance of responsive web design lies in its ability to provide a consistent and optimized user experience regardless of the device being used. With the growing popularity of mobile devices and the increasing prevalence of internet usage on the go, it is essential for websites to adapt to the varying screen sizes and input methods of different devic
