@@ -1,0 +1,153 @@
+/* Blog Section */
+#blog {
+  margin-top: 30px;
+}
+
+#blog h1 {
+  color: #333;
+}
+
+#blog .card {
+  transition: transform 0.3s;
+}
+
+#blog .card:hover {
+  transform: scale(1.05);
+}
+
+/* About Me Section */
+#about {
+  margin-top: 30px;
+}
+
+#about h1 {
+  color: #333;
+}
+
+#about p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  color: #555;
+}
+
+/* Custom Styles for Categories Section */
+#categories {
+  background-color: #f8f9fa; /* Light gray background color */
+  padding: 20px;
+  border-radius: 8px;
+  border-radius: 10px;
+}
+
+#categories h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #007bff; 
+}
+
+.list-group-item {
+  border: none; 
+}
+
+.list-group-item a {
+  color: #333; /* Text color for category links */
+  font-weight: bold;
+  text-decoration: none; /* Remove underline */
+}
+
+.list-group-item a:hover {
+  text-decoration: none;
+  color: #007bff; /* Hover color for category links */
+}
+
+/* styles.css */
+body {
+  margin: 0;
+  font-family: "Arial", sans-serif;
+}
+
+.about-section {
+  background-image: url("Asset/IMG_20201004_224307_233.jpg"); /* Replace with the path to your image */
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  position: relative;
+}
+
+.about-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8); /* Adjust the alpha channel for the overlay color */
+}
+
+.container {
+  z-index: 1.5;
+  position: relative;
+}
+
+.about-content {
+  color: #fff; /* Adjust text color for better visibility on the background */
+  padding: 50px;
+  line-height: 2.6;
+}
+
+.contact-section {
+  background-color: #f8f9fa; /* Background color for the contact section */
+  padding: 50px 0;
+}
+
+.container {
+  z-index: 1;
+  position: relative;
+}
+
+h2 {
+  text-align: center;
+  color: #333; /* Heading color */
+}
+
+form {
+  background-color: #fff; /* Form background color */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.form-label {
+  font-weight: bold;
+  color: #333; /* Label color */
+}
+
+.form-control {
+  margin-bottom: 15px;
+  border: 1px solid #ccc; /* Border color for form fields */
+}
+
+.btn-primary {
+  background-color: #007bff; /* Submit button background color */
+  color: #fff; /* Submit button text color */
+  border: none;
+  padding: 10px 25px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3; /* Hover color for the submit button */
+}
+
+/* Center form fields vertically */
+.vertical-center {
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+/* Optional: Add responsive styles for smaller screens */
+@media (max-width: 768px) {
+  form {
+    padding: 15px;
+  }
+}/*# sourceMappingURL=style.css.map */
