@@ -4,54 +4,71 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Me</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css"> <!-- Include your custom styles if needed -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
 <body>
 
-    <!-- About Page -->
-    <section id="about" class="about-section">
-        <div class="about-overlay">
+
+    <header>
+   
+        <nav class="navbar navbar-expand-lg navbar-custom">
             <div class="container">
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="about-content">
-                            <h2>About Me</h2>
-                            <p>
-                                Enthusiastic and passionate individual with a diverse range of interests and expertise. Currently enrolled in a rigorous bootcamp with BGIT, honing my skills and expanding my knowledge base as a frontend developer. Also passionate about fashion design and UI/UX design. Eager to contribute to the tech community by sharing my expertise and inspiring others to pursue their dreams.
-
-Key Skills:
-
-Proficient in HTML, CSS, and JavaScript
-Experience with various frontend development frameworks
-Strong problem-solving and analytical skills
-Effective communication and collaboration skills
-Fashion design and UI/UX design skills
-Passionate about:
-
-Exploring the ever-evolving landscape of technology
-Discovering new tools and frameworks to enhance my development skills
-Creating eye-catching and user-friendly designs
-Sharing my knowledge and inspiring others to pursue their dreams
-The limitless possibilities of technology
-The power of design to enhance the user experience
-The joy of creating something beautiful and functional
-Motivated by:
-
-The limitless possibilities of technology
-The power of technology to solve real-world problems
-The impact of design on people's lives
-Aspiring to:
-
-Become a skilled and experienced frontend developer
-Contribute to innovative tech projects that make a positive impact
-Foster a more inclusive and supportive tech community
-Build a successful fashion design and UI/UX design career
-                        </div>
-                    </div>
+                <a class="navbar-brand" href="#"><i>denolavicky</i></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="Index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="blog.html">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
+        </nav>
+    </header>
+    
+
+<!-- About Page Content -->
+<main class="container mt-5">
+    <div class="row">
+        <!-- Image of you on the side -->
+        <div class="col-md-4">
+            <img src="Asset/IMG_20200620_125458_373.jpg" alt="A picture of you" class="img-fluid rounded-circle">
         </div>
-    </section>
+        <div class="col-md-8">
+            <h2 class="mb-4">About Me</h2>
+            <p>
+                Beyond technology, I am also passionate about fashion design and UI/UX design. Eager to contribute to the tech community, I am passionate about sharing my expertise and inspiring others to pursue their tech dreams. My key skills include proficiency in HTML, CSS, and JavaScript, experience with various frontend development frameworks, strong problem-solving and analytical skills, effective communication and collaboration skills, and fashion design and UI/UX design skills.
+            </p>
+            <p>
+                With a diverse range of interests and expertise, I am currently enrolled in a rigorous bootcamp with BGIT, honing my skills as a frontend developer while expanding my knowledge base.
+            </p>
+            <p><b>Passion for Fashion and Technology:</b></p>
+
+                <p>With a keen eye for aesthetics and a deep understanding of user experience, I am a passionate fashion UI/UX designer who is driven by the intersection of creativity and technology. My two-year internship at a private company as a QA engineer and automation engineer provided me with valuable insights into the technical aspects of software development, while my ongoing participation in the BGIT bootcamp for frontend development is further enhancing my skills in creating visually appealing and user-friendly interfaces.</p>
+                <p><b>Combining Creativity and Technical Expertise:</b></p>
+                <p>
+
+                    I am particularly fascinated by the challenge of translating the essence of fashion brands into engaging digital experiences. Through my UI/UX design work, I strive to capture the unique brand identity and convey it seamlessly across various digital platforms, from e-commerce websites to mobile apps and social media presences. My ability to balance creativity with technical expertise enables me to craft designs that are both aesthetically pleasing and functionally sound.</p>
+                <p><b>Enthusiastic Learner and Collaborative Spirit:</b></p>
+                    
+                    <p>
+
+                        I am an enthusiastic learner who is always eager to expand my knowledge and skills in the ever-evolving field of fashion UI/UX design. I am also a strong collaborator, finding joy in working closely with designers, developers, and marketing teams to create a cohesive and impactful digital presence for fashion brands. My passion for fashion and my commitment to user-centered design make me a valuable asset to any team seeking to create a truly exceptional fashion experience.</p>
+        </div>
+    </div>
+</main>
 
 <!-- Footer Section -->
 <footer class="bg-dark text-light text-center py-3">
@@ -60,11 +77,9 @@ Build a successful fashion design and UI/UX design career
     </div>
 </footer>
 
+<!-- Bootstrap JS (Include at the end of the body for faster page loading) -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
 
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5r9PRkK1Ri7U1tegDHC3XPKN1URi5YHQ="
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-rnqB50Ow3hxHItElON1f9z4qNhI97pl5tTw69DwFPhv+5f5gD6gu66IjDgUpJr+r"
-        crossorigin="anonymous"></script>
 </body>
 </html>
